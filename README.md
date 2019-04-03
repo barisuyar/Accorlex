@@ -7,7 +7,7 @@ Your app will act like in gif after accorlex implemented.
 
 You can add your table view from IB like this.
 
-![](Resources/ID-table-view.png)
+![](Resources/IB-table-view.png)
 
 Accorlex using cell for section header. You will add two different type cells for a section, one for section header and the other for items.
 
