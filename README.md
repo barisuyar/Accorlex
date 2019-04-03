@@ -1,6 +1,9 @@
 # Accorlex
 This is a accordion menu implemented in Swift.
 
+You will use pod to implement Accorlex. 
+==> **pod 'Accorlex'** is usage.
+
 Your app will act like in gif after accorlex implemented.
 
 ![](Resources/accorlex.gif)
