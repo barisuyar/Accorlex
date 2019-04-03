@@ -1,0 +1,16 @@
+PODS:
+  - Accorlex (1.0.0)
+
+DEPENDENCIES:
+  - Accorlex
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Accorlex
+
+SPEC CHECKSUMS:
+  Accorlex: 9edff5e47e39ecb436578c886b1adb1849d4d856
+
+PODFILE CHECKSUM: 05304551a8aaaaa22506d729701ce59f682a6428
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF891657AF0E19F024042B64C028355 /* AccorlexTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D233B58889AB0FE615242A0E6BBE3 /* AccorlexTableView.swift */; };
+		37B671499522EF74F59D438C2E3085C2 /* AccorlexTableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DCFC276B46280DDB9068AAD4FE4E6 /* AccorlexTableView+Extensions.swift */; };
+		403141624320C8D43D4977EB53E4AFD6 /* Pods-AccorlexDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8280C5FB2AAC7AC098B8886BC96259 /* Pods-AccorlexDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B1007AE80AC0CF4444E4B0D6142CFFF /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A2B743E2B3FB36A6C7B3415042D7D /* ReusableView.swift */; };
+		78A6CC374ABCDB3F304D6660F16BDE23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7EF54ACCBF2082A6C49C8D4ECAF08F4C /* Accorlex.h in Headers */ = {isa = PBXBuildFile; fileRef = DC065054A85D8A2CEF18A4756F694FEB /* Accorlex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8357FC1AF47C6F0E80C9794A1650AA19 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB519C038C2685B0FCA7EE449577B /* NibLoadableView.swift */; };
+		B4BBC88F219078A7A33388C70F8CCC1E /* Accorlex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F9BDED67624DEBEC9D6BB28079C342 /* Accorlex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD09B871908494EF0F82E182C831C99B /* AccorlexMenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDDEE0785F8DF7555535DF70B10BBD /* AccorlexMenuSection.swift */; };
+		C56197A56E903286CD63240BBB325F87 /* Pods-AccorlexDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 574CD75C4B7E741EB90EB9EBC455D6E2 /* Pods-AccorlexDemo-dummy.m */; };
+		D5085A3F5151FB06BB2CF1FF82A3C10A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F890BB4E8AB80944ABA370F0A9A01F41 /* Accorlex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2CAFEA66A79681C61730D3BBECCAB /* Accorlex-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A10D9BBB19EE48D59BF77D52EA4D302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BDAB234949986BE8B83CEDD373B4584;
+			remoteInfo = Accorlex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11089BF32E269CAE8502C66003C507C1 /* Pods-AccorlexDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AccorlexDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1AF2CAFEA66A79681C61730D3BBECCAB /* Accorlex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Accorlex-dummy.m"; sourceTree = "<group>"; };
+		559B32DF27AB8E90CBB529B018BDE6D8 /* Accorlex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Accorlex.xcconfig; sourceTree = "<group>"; };
+		574CD75C4B7E741EB90EB9EBC455D6E2 /* Pods-AccorlexDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AccorlexDemo-dummy.m"; sourceTree = "<group>"; };
+		5FC6EF9171776C84C099F758B9AF5E26 /* Pods-AccorlexDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AccorlexDemo.modulemap"; sourceTree = "<group>"; };
+		669DB519C038C2685B0FCA7EE449577B /* NibLoadableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoadableView.swift; path = Accorlex/Accorlex/Helper/NibLoadableView.swift; sourceTree = "<group>"; };
+		73F9BDED67624DEBEC9D6BB28079C342 /* Accorlex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Accorlex-umbrella.h"; sourceTree = "<group>"; };
+		8983850DA7471D7BB5CE00F2B4D3DC61 /* Accorlex-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Accorlex-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8BDDEE0785F8DF7555535DF70B10BBD /* AccorlexMenuSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccorlexMenuSection.swift; path = Accorlex/Accorlex/Core/AccorlexMenuSection.swift; sourceTree = "<group>"; };
+		B8B9A384D28F81AD97CB715FADD76CD6 /* Accorlex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Accorlex.modulemap; sourceTree = "<group>"; };
+		C0994DDE58CFE202393B863F3CA66450 /* Accorlex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Accorlex.framework; path = Accorlex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42D233B58889AB0FE615242A0E6BBE3 /* AccorlexTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccorlexTableView.swift; path = Accorlex/Accorlex/TableView/AccorlexTableView.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB8280C5FB2AAC7AC098B8886BC96259 /* Pods-AccorlexDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AccorlexDemo-umbrella.h"; sourceTree = "<group>"; };
+		D2C155312496FB92EFE17CDEC47686C2 /* Pods-AccorlexDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AccorlexDemo-frameworks.sh"; sourceTree = "<group>"; };
+		D34A2B743E2B3FB36A6C7B3415042D7D /* ReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReusableView.swift; path = Accorlex/Accorlex/Helper/ReusableView.swift; sourceTree = "<group>"; };
+		D56C22F4A591456982A26815D41401CB /* Pods_AccorlexDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AccorlexDemo.framework; path = "Pods-AccorlexDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A871E25C69A87966462890BE270646 /* Pods-AccorlexDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AccorlexDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB8D178D751F9A0190A115F6F4699C0F /* Pods-AccorlexDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AccorlexDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC065054A85D8A2CEF18A4756F694FEB /* Accorlex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Accorlex.h; path = Accorlex/Accorlex/Accorlex.h; sourceTree = "<group>"; };
+		EFD3387B5CC25B353495C5F2B0C08B9F /* Pods-AccorlexDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AccorlexDemo-Info.plist"; sourceTree = "<group>"; };
+		F77A30CAED1706A69769287B90733517 /* Accorlex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Accorlex-prefix.pch"; sourceTree = "<group>"; };
+		F7E39915B09E717BBCD5845900055A77 /* Pods-AccorlexDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AccorlexDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F99DCFC276B46280DDB9068AAD4FE4E6 /* AccorlexTableView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AccorlexTableView+Extensions.swift"; path = "Accorlex/Accorlex/Helper/AccorlexTableView+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1548165357B07EC696566D9841539AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5085A3F5151FB06BB2CF1FF82A3C10A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318B960F8302051D2B681E38684AAD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A6CC374ABCDB3F304D6660F16BDE23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8546CF70A0D1ADD69C7D9D2F04752341 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8B9A384D28F81AD97CB715FADD76CD6 /* Accorlex.modulemap */,
+				559B32DF27AB8E90CBB529B018BDE6D8 /* Accorlex.xcconfig */,
+				1AF2CAFEA66A79681C61730D3BBECCAB /* Accorlex-dummy.m */,
+				8983850DA7471D7BB5CE00F2B4D3DC61 /* Accorlex-Info.plist */,
+				F77A30CAED1706A69769287B90733517 /* Accorlex-prefix.pch */,
+				73F9BDED67624DEBEC9D6BB28079C342 /* Accorlex-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Accorlex";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C242B2864CEA4B89A6C319A796761DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0994DDE58CFE202393B863F3CA66450 /* Accorlex.framework */,
+				D56C22F4A591456982A26815D41401CB /* Pods_AccorlexDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E2E0AFD5E9163FF48C56C52CD0ACA5E2 /* Pods */,
+				C242B2864CEA4B89A6C319A796761DF9 /* Products */,
+				D93244374CF9A56A1D0C5B397D3DCAC8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D93244374CF9A56A1D0C5B397D3DCAC8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5587BDB445116E331B936A7F414D5FA /* Pods-AccorlexDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DC81E0BF876113E28DE828D326830434 /* Accorlex */ = {
+			isa = PBXGroup;
+			children = (
+				DC065054A85D8A2CEF18A4756F694FEB /* Accorlex.h */,
+				A8BDDEE0785F8DF7555535DF70B10BBD /* AccorlexMenuSection.swift */,
+				C42D233B58889AB0FE615242A0E6BBE3 /* AccorlexTableView.swift */,
+				F99DCFC276B46280DDB9068AAD4FE4E6 /* AccorlexTableView+Extensions.swift */,
+				669DB519C038C2685B0FCA7EE449577B /* NibLoadableView.swift */,
+				D34A2B743E2B3FB36A6C7B3415042D7D /* ReusableView.swift */,
+				8546CF70A0D1ADD69C7D9D2F04752341 /* Support Files */,
+			);
+			name = Accorlex;
+			path = Accorlex;
+			sourceTree = "<group>";
+		};
+		E2E0AFD5E9163FF48C56C52CD0ACA5E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC81E0BF876113E28DE828D326830434 /* Accorlex */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5587BDB445116E331B936A7F414D5FA /* Pods-AccorlexDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5FC6EF9171776C84C099F758B9AF5E26 /* Pods-AccorlexDemo.modulemap */,
+				D5A871E25C69A87966462890BE270646 /* Pods-AccorlexDemo-acknowledgements.markdown */,
+				DB8D178D751F9A0190A115F6F4699C0F /* Pods-AccorlexDemo-acknowledgements.plist */,
+				574CD75C4B7E741EB90EB9EBC455D6E2 /* Pods-AccorlexDemo-dummy.m */,
+				D2C155312496FB92EFE17CDEC47686C2 /* Pods-AccorlexDemo-frameworks.sh */,
+				EFD3387B5CC25B353495C5F2B0C08B9F /* Pods-AccorlexDemo-Info.plist */,
+				CB8280C5FB2AAC7AC098B8886BC96259 /* Pods-AccorlexDemo-umbrella.h */,
+				F7E39915B09E717BBCD5845900055A77 /* Pods-AccorlexDemo.debug.xcconfig */,
+				11089BF32E269CAE8502C66003C507C1 /* Pods-AccorlexDemo.release.xcconfig */,
+			);
+			name = "Pods-AccorlexDemo";
+			path = "Target Support Files/Pods-AccorlexDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E4A97EB6E166D95F95E717C338919DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BBC88F219078A7A33388C70F8CCC1E /* Accorlex-umbrella.h in Headers */,
+				7EF54ACCBF2082A6C49C8D4ECAF08F4C /* Accorlex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF0AFE9726D1B0D93D86AF2F5FC27C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403141624320C8D43D4977EB53E4AFD6 /* Pods-AccorlexDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4BDAB234949986BE8B83CEDD373B4584 /* Accorlex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7291955C5C2E4536470C46C5C3356324 /* Build configuration list for PBXNativeTarget "Accorlex" */;
+			buildPhases = (
+				5E4A97EB6E166D95F95E717C338919DF /* Headers */,
+				47FC1247575ED1BB7C3CB6CC6167F843 /* Sources */,
+				318B960F8302051D2B681E38684AAD98 /* Frameworks */,
+				F417E9473A926F02B41AFC6E648B6A8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accorlex;
+			productName = Accorlex;
+			productReference = C0994DDE58CFE202393B863F3CA66450 /* Accorlex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8755FF796FCAD8A72CCE03483026DF3 /* Pods-AccorlexDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE156A5E4062B4164C1375B32F387934 /* Build configuration list for PBXNativeTarget "Pods-AccorlexDemo" */;
+			buildPhases = (
+				CDF0AFE9726D1B0D93D86AF2F5FC27C0 /* Headers */,
+				30A05867C5830DD92791A4B6B5FDEBC3 /* Sources */,
+				1548165357B07EC696566D9841539AF7 /* Frameworks */,
+				39CAD41433F1FEA6A91EB6380308D535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5761341D42D314AB3FFFAAD75111B6F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-AccorlexDemo";
+			productName = "Pods-AccorlexDemo";
+			productReference = D56C22F4A591456982A26815D41401CB /* Pods_AccorlexDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C242B2864CEA4B89A6C319A796761DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BDAB234949986BE8B83CEDD373B4584 /* Accorlex */,
+				D8755FF796FCAD8A72CCE03483026DF3 /* Pods-AccorlexDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39CAD41433F1FEA6A91EB6380308D535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F417E9473A926F02B41AFC6E648B6A8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30A05867C5830DD92791A4B6B5FDEBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56197A56E903286CD63240BBB325F87 /* Pods-AccorlexDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FC1247575ED1BB7C3CB6CC6167F843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F890BB4E8AB80944ABA370F0A9A01F41 /* Accorlex-dummy.m in Sources */,
+				BD09B871908494EF0F82E182C831C99B /* AccorlexMenuSection.swift in Sources */,
+				37B671499522EF74F59D438C2E3085C2 /* AccorlexTableView+Extensions.swift in Sources */,
+				0EF891657AF0E19F024042B64C028355 /* AccorlexTableView.swift in Sources */,
+				8357FC1AF47C6F0E80C9794A1650AA19 /* NibLoadableView.swift in Sources */,
+				5B1007AE80AC0CF4444E4B0D6142CFFF /* ReusableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5761341D42D314AB3FFFAAD75111B6F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Accorlex;
+			target = 4BDAB234949986BE8B83CEDD373B4584 /* Accorlex */;
+			targetProxy = 8A10D9BBB19EE48D59BF77D52EA4D302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CF7F78467F31CAB0D73857B44B95EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11089BF32E269CAE8502C66003C507C1 /* Pods-AccorlexDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AccorlexDemo/Pods-AccorlexDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AccorlexDemo/Pods-AccorlexDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A2B196719C1CE0C81F5901B168054D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E39915B09E717BBCD5845900055A77 /* Pods-AccorlexDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AccorlexDemo/Pods-AccorlexDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AccorlexDemo/Pods-AccorlexDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B72C49243BEE2E8B7455C2B70F7BA3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559B32DF27AB8E90CBB529B018BDE6D8 /* Accorlex.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Accorlex/Accorlex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Accorlex/Accorlex-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Accorlex/Accorlex.modulemap";
+				PRODUCT_MODULE_NAME = Accorlex;
+				PRODUCT_NAME = Accorlex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F82EF3C33DA9E23A47832A3278D3C5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559B32DF27AB8E90CBB529B018BDE6D8 /* Accorlex.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Accorlex/Accorlex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Accorlex/Accorlex-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Accorlex/Accorlex.modulemap";
+				PRODUCT_MODULE_NAME = Accorlex;
+				PRODUCT_NAME = Accorlex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7291955C5C2E4536470C46C5C3356324 /* Build configuration list for PBXNativeTarget "Accorlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82EF3C33DA9E23A47832A3278D3C5BF /* Debug */,
+				B72C49243BEE2E8B7455C2B70F7BA3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE156A5E4062B4164C1375B32F387934 /* Build configuration list for PBXNativeTarget "Pods-AccorlexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2B196719C1CE0C81F5901B168054D6 /* Debug */,
+				1CF7F78467F31CAB0D73857B44B95EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

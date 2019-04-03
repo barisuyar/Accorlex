@@ -1,0 +1,6 @@
+framework module Pods_AccorlexDemo {
+  umbrella header "Pods-AccorlexDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
